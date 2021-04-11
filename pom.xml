@@ -11,7 +11,7 @@
 	<groupId>com.ps</groupId>
 	<artifactId>playground</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>playground</name>
+	<userName>playground</userName>
 	<description>Play ground for spring boot camp</description>
 	<properties>
 		<java.version>1.8</java.version>

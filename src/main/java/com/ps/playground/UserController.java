@@ -19,6 +19,19 @@ public class UserController {
         return (List<User>) userRepository.findAll();
     }
 
+    @GetMapping("/test")
+    public void test(){
+        User user = new User();
+        user.setUserName("pshkl");
+        user.setFirstName("Praveen");
+        user.setLastName("Shukla");
+        user.setEmail("praveenshkl@gmail.com");
+        user.setCity("Pune");
+        user.setCountry("India");
+        user.setPhone("8888899999");
+        userRepository.save(user);
+    }
+
     @GetMapping("/{id}")
     public Optional<User> getUserById(@PathVariable("id") long id){
         return userRepository.findById(id);
