@@ -1,5 +1,7 @@
 package com.ps.playground;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import javax.persistence.*;
 
 @Entity
@@ -38,6 +40,7 @@ public class User {
     private String city;
 
     @Column(name="STATE")
+    @JsonProperty("State")
     private String State;
 
     @Column(name="COUNTRY")
