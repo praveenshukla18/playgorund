@@ -1,5 +1,6 @@
-package com.ps.playground;
+package com.ps.user.services;
 
+import com.ps.user.services.beans.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

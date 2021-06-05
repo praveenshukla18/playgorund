@@ -1,4 +1,4 @@
-package com.ps.playground;
+package com.ps.user.services.beans;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
