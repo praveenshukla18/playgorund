@@ -2,6 +2,7 @@ package com.ps.covidportal.services;
 
 import com.ps.covidportal.services.beans.CaseStat;
 import com.ps.covidportal.services.beans.StateData;
+import com.ps.covidportal.services.serviceHelpers.CovidStatisticsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
